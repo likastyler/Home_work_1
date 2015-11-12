@@ -1,8 +1,4 @@
-Python 2.7.10 (default, May 23 2015, 09:40:32) [MSC v.1500 32 bit (Intel)] on win32
-Type "copyright", "credits" or "license()" for more information.
->>> x = int(raw_input('Please enter number 1-9:'))
-Please enter number 1-9:123456789
->>> if 0 <= x <= 9:
+ if 0 <= x <= 9:
 	if 1 <= x <= 3:
 		s = raw_input('Please enter string:')
 		n = int(raw_input('Enter the degree to which you want to build number:'))
@@ -23,15 +19,6 @@ Please enter number 1-9:123456789
 			x+=1
 			print x
 			i+=1
-
-			
->>> else:
-	
-SyntaxError: invalid syntax
->>>     print 'Input Error'
+else:
+    print 'Error'
     
-  File "<pyshell#24>", line 2
-    print 'Input Error'
-    ^
-IndentationError: unexpected indent
->>> 
